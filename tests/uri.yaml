@@ -16,5 +16,5 @@
     - name: Response
       debug:
         msg: "Aplicação Dexter: [ERR] Could not connect to mysql"      
-      when: '"Could not connect to mysql" in response.content'
-      failed_when: '"Could not connect to mysql" in response.content'
+      when: '"Cloud not connect to mysql" in response.content'
+      failed_when: '"Cloud not connect to mysql" in response.content'
